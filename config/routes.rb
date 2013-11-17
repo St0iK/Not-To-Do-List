@@ -1,5 +1,6 @@
 MyNewApp::Application.routes.draw do
 
+  resources :users
   root 'static_pages#home'    
   get 'contact' => 'static_pages#contact'
   get 'page/:url' => 'pages#show'
