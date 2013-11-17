@@ -2,7 +2,7 @@ MyNewApp::Application.routes.draw do
 
   root 'static_pages#home'    
   get 'contact' => 'static_pages#contact'
-  get 'page/:id' => 'pages#show'
+  get 'page/:url' => 'pages#show'
 
 
   #get "static_pages/info"
