@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 gem 'bootstrap-sass-rails'
 gem 'bcrypt-ruby', '~> 3.0.0'
+gem "will_paginate", "~> 3.0.5"
+gem 'faker', '1.1.2'
 # Use sqlite3 as the database for Active Record
 
 group :development, :test do
