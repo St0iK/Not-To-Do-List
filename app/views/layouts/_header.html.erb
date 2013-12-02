@@ -47,8 +47,8 @@
                 <li><%= link_to "Settings", '#' %></li>
                 <li class="divider"></li>
                 <li><%= link_to "Sign out", signout_path, method: "delete" %></li>
-               <% else %>
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Create an account<span class="caret"></span></a>
+               <% else %>                  
+                       <%= link_to "Create an account", signup_path, { :class=>("create_account")} %>
                <% end %>
              
                           
