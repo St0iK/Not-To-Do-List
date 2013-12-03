@@ -1,28 +1,9 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Not-To-Do List is a simple task manager for all the things that you don't want to do ;)
 
-Things you may want to cover:
+https://stark-mesa-6473.herokuapp.com/
 
-* Ruby version
+Made by Dimitris Stoikidis. Contact me at jstoikidis@gmail.com.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Build with Ruby on Rails, Backbone.js & Bootstrap. Icons from Font Awesome. Web fonts from Google. Favicon by Gerald Hiller.
